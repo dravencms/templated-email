@@ -1,0 +1,40 @@
+{
+  "name": "dravencms/templated-email",
+  "type": "dravencms-package",
+  "description": "DravenCMS Templated email",
+  "keywords": [
+    "dravencms",
+    "templated-email"
+  ],
+  "license": [
+    "LGPL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Adam Schubert"
+    }
+  ],
+  "require": {
+    "salamek/nette-templated-email": "@dev"
+  },
+  "autoload": {
+    "psr-0": {
+      "Dravencms\\": "src/"
+    }
+  },
+  "extra": {
+    "dravencms": {
+      "configuration": {
+        "extensions": {
+          "templatedEmail": "Salamek\\TemplatedEmail\\DI\\TemplatedEmailExtension"
+        },
+        "templatedEmail": {
+          "sendEmailDebugStorage": "%tempDir%/sendEmails",
+          "templateStorage": "%appDir%/emailTemplates",
+          "fromName": "dravemCMS",
+          "fromEmail": "info@example.com"
+        }
+      }
+    }
+  }
+}
