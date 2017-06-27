@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "salamek/nette-templated-email": "@dev"
+    "salamek/nette-templated-email": "^v1.0"
   },
   "autoload": {
     "psr-0": {
