@@ -1,5 +1,5 @@
 extensions:
-    templatedEmail: Salamek\TemplatedEmail\DI\TemplatedEmailExtension
+    templatedEmail: Salamek\TemplatedEmail\DI\TemplatedEmailExtension(%debugMode%)
 
 
 templatedEmail:
