@@ -3,8 +3,8 @@ extensions:
 
 
 templatedEmail:
-    sendEmailDebugStorage": "%tempDir%/sendEmails"
-    templateStorage": "%appDir%/emailTemplates"
-    layout": "%appDir%/../vendor/dravencms/templated-email/@layout.latte"
-    fromName": "dravemCMS"
-    fromEmail": "info@example.com"
+    sendEmailDebugStorage: "%tempDir%/sendEmails"
+    templateStorage: "%appDir%/emailTemplates"
+    layout: "%appDir%/../vendor/dravencms/templated-email/@layout.latte"
+    fromName: "dravemCMS"
+    fromEmail: "info@example.com"
